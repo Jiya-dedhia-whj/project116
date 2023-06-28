@@ -1,0 +1,21 @@
+h3
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+canvas
+{
+  animation-name: box-shadow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes box-shadow
+{
+    to{box-shadow: 1px 1px 80px rgb(37, 119, 28);}
+    from{box-shadow: 1px 1px 80px rgb(28, 95, 119);}
+}
+#mustache:hover
+{
+    background-color: blueviolet;
+    color: rgb(224, 198, 248);
+}
